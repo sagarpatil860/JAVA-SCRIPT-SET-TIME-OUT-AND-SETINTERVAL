@@ -19,6 +19,7 @@ document.getElementById("d").addEventListener("click" ,()=>{
 
 document.getElementById("d").addEventListener("click", l);
 function l()
+/*
 {
   
 setInterval (function a (){
@@ -37,4 +38,12 @@ document.getElementById("g").addEventListener("click", o)
 function o()
 {
     clearInterval(t)
+}*/
+{
+    setInterval (function a (){
+    let b=document.createElement("p");
+    b.innerHTML="sagar";
+
+    document.body.appendChild(b);
+setTimeout (a,parseInt(y.value));},parseInt(y.value));
 }
